@@ -60,6 +60,7 @@ class Details extends Component {
                       disabled={inCart ? true : false}
                       onClick={() => {
                         value.addToCart(id) 
+                        value.openModal(id)
                       }}
                     >
                       {inCart?'inCart':'add to cart'}

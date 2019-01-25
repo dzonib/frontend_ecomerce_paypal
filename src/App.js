@@ -6,8 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './Components/Navbar'
 import ProductList from './Components/ProductList'
 import Details from './Components/Details'
-import Cart from './Components/Cart'
+import Cart from './Components/cart'
 import NotFound from './Components/NotFound'
+import Modal from './Components/Modal'
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route component={NotFound} />
         </Switch>
+        <Modal />
       </>
     );
   }
