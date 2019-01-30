@@ -31,7 +31,7 @@ class Modal extends Component {
                       </StyledButton>
                     </Link>
 
-                    <Link to="/">
+                    <Link to="/cart">
                       <StyledButton
                         cart
                         onClick={() => {closeModal()}}
